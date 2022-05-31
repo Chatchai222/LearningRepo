@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    padding: 10px;
+    /*
+    The padding: 10px;
+    is equivalent to
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    */
+    width: 100%; /* 100% (include the padding but not overflow out of the body)*/
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 10px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #5f9341;
+    padding: 10px 20px;
+    /*
+    Equivalent to using
+    padding-buttom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    */ 
+
+    font-weight: bold;
+    border: none;
+}
+
+#delete-btn{
+    color: #5f9341;
+    background-color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;        
+}
+
+li{  
+    margin-top: 5px;
+}
+
+li a{ /*Anchor tag that lives inside the list item will get styled*/
+    color: green;
+}
